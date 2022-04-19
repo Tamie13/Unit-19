@@ -40,12 +40,14 @@ For example: "Block all incoming HTTP traffic where the source IP comes from the
 
 Mapping iplocation before and after the atack revealed that before the attack Paris, France was the primary source of traffic as can be seen below.
 
-![TODO]()
+![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Logs%20iplocation%20before%20attack.png)
 
-Provide a screen shot of the geographic map that justifies why you created this rule.
+Attack logs show a large spike in traffic from the Ukraine who had little to no presence before the attack which can be seen in the image below.
+
+![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Attack%20Logs%20iplocation%20pie%20chart.png)
 
 
-Question 2
+**Question 2**
 
 
 VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
