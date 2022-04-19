@@ -43,12 +43,14 @@ Provide a "plain english" description of the rule.
 
 For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
 
-Mapping iplocation before and after the atack revealed that before the attack Paris, France was the primary source of traffic as can be seen below.
+Mapping iplocation before and after the atack revealed that before the attack Paris, France was the 
+primary source of traffic as can be seen below.
 
 *Before The Attack1*
 ![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Logs%20iplocation%20before%20attack.png)
 
-Attack logs show a large spike in traffic from the Ukraine who had little to no presence before the attack which can be seen in the image below.
+Attack logs show a large spike in traffic from the Ukraine who had little to no presence before the 
+attack which can be seen in the image below.
 
 *After The Attack*
 ![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Attack%20Logs%20iplocation%20pie%20chart.png)
@@ -63,10 +65,11 @@ What other rules can you create to protect VSI from attacks against your webserv
 
 Conceive of two more rules in "plain english".
 
-    -  1. Use ingress and egress packet filtering that will also help to establish an Access Control List (ACL) of
-          permitted source ip addresses.
+    -  1. Use ingress and egress packet filtering that will also help to establish an 
+          Access Control List (ACL) of permitted source ip addresses.
           
-    -  2. Use IP-Level encryption protocols that will protect traffic going to and from the companies enterprise server.
+    -  2. Use IP-Level encryption protocols that will protect traffic going to and 
+          from the companies enterprise server.
 
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
