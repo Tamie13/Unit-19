@@ -54,24 +54,17 @@ Attack logs show a large spike in traffic from the Ukraine who had little to no 
 
 **Question 2**
 
-
-VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
-
+VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order 
+to avoid being stopped by the rule you just created.
 
 What other rules can you create to protect VSI from attacks against your webserver?
 
 Conceive of two more rules in "plain english".
-Hint: Look for other fields that indicate the attacker.
 
+    -  1. Use ingress and egress packet filtering that will also help to establish an Access Control List (ACL) of
+          permitted source ip addresses.
+          
+    -  2. Use IP-Level encryption protocols that will protect traffic going to and from the companies enterprise server.
 
-
-
-Guidelines for your Submission:
-In a word document, provide the following:
-
-Answers for all questions.
-Screenshots where indicated
-
-Submit your findings in BootCampSpot!
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
