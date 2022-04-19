@@ -8,20 +8,8 @@ Scenario
 In the previous class,  you set up your SOC and monitored attacks from JobeCorp. Now, you will need to design mitigation strategies to protect VSI from future attacks.
 You are tasked with using your findings from the Master of SOC activity to answer questions about mitigation strategies.
 
-System Requirements
-You will be using the Splunk app located in the Ubuntu VM.
 
-Logs
-Use the same log files you used during the Master of SOC activity:
-
-Windows Logs
-Windows Attack Logs
-Apache Webserver Logs
-Apache Webserver Attack Logs
-
-
-
-Part 1: Windows Server Attack
+### Part 1: Windows Server Attack
 Note: This is a public-facing windows server that VSI employees access.
 
 **Question 1**
@@ -41,15 +29,18 @@ What sort of mitigation could you use to protect against this?
     -  Account lockout policies that set or have a threshold for the number of times login failure can happen per user accounts.  Zero threshold would stop attacks but a higher threshold number of 3 failed attempts before lockout occurs would be more feasible for mitigation in this instance. 
     -  To back this up, strong password policies are a must and should include minimum length of 12 as well as requied use of special characters and require that passwords must be changed every 90 days.
 
-Part 2: Apache Webserver Attack:
+### Part 2: Apache Webserver Attack:
 
-Question 1
+**Question 1**
 
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
 
 For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
 
+Mapping iplocation before and after the atack revealed that before the attack Paris, France was the primary source of traffic as can be seen below.
+
+![TODO]()
 
 Provide a screen shot of the geographic map that justifies why you created this rule.
 
