@@ -45,10 +45,12 @@ For example: "Block all incoming HTTP traffic where the source IP comes from the
 
 Mapping iplocation before and after the atack revealed that before the attack Paris, France was the primary source of traffic as can be seen below.
 
+*Before The Attack1*
 ![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Logs%20iplocation%20before%20attack.png)
 
 Attack logs show a large spike in traffic from the Ukraine who had little to no presence before the attack which can be seen in the image below.
 
+*After The Attack*
 ![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Attack%20Logs%20iplocation%20pie%20chart.png)
 
 
