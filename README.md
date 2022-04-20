@@ -43,8 +43,8 @@ What sort of mitigation could you use to protect against this?
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
 
-**Answer** Firewall rule to block all incoming HTTP traffic where the source IP comes from the Kiev, Ukraine. Recommend also blocking
-           outgoing traffic to unrecognized or validated client ip addresses orginiating from out of the country.
+    -  Answer: Firewall rule to block all incoming HTTP traffic where the source IP comes from the Kiev, Ukraine. Recommend also blocking
+       outgoing traffic to unrecognized or validated client ip addresses orginiating from out of the country.
 
 *Mapping iplocation before and after the atack revealed that before the attack Paris, France was the 
 primary source of traffic as can be seen below.*
