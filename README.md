@@ -39,15 +39,6 @@ What sort of mitigation could you use to protect against this?
 
 ### Part 2: Apache Webserver Attack:
 
-**Question 1**
-
-Based on the geographic map, recommend a firewall rule that the networking team should implement.
-Provide a "plain english" description of the rule.
-
-    -  Answer: Firewall rule to block all incoming HTTP traffic where the source IP comes from the Kiev, Ukraine. 
-       Recommend also blocking outgoing traffic to unrecognized or validated client ip addresses orginiating 
-       from out of the country.
-
 *Mapping iplocation before and after the atack revealed that before the attack Paris, France was the 
 primary source of traffic as can be seen below.*
 
@@ -60,6 +51,15 @@ attack which can be seen in the image below.*
 *After The Attack*
 ![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Attack%20Logs%20iplocation%20pie%20chart.png)
 
+
+**Question 1**
+
+Based on the geographic map, recommend a firewall rule that the networking team should implement.
+Provide a "plain english" description of the rule.
+
+    -  Answer: Firewall rule to block all incoming HTTP traffic where the source IP comes from the Kiev, Ukraine. 
+       Recommend also blocking outgoing traffic to unrecognized or validated client ip addresses orginiating 
+       from out of the country.
 
 
 **Question 2**
