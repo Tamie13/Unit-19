@@ -22,6 +22,8 @@ Provide global mitigations that the whole company can use and individual mitigat
        globally as well as for individuals in the company.
     -  To slow down or prevent brute forcing by automation CAPTCHA can be used for mitigation.
     -  Use of cookies to prevent unrecognized servers or computers from accessing company server.
+    -  User limitations / permission need to be reviewed and more stringent limitations placed on access
+       priviledges for non-admin users such as USER_J.
     
 **Question 2**
 
@@ -41,19 +43,21 @@ What sort of mitigation could you use to protect against this?
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
 
-For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
+**Answer** Firewall rule to block all incoming HTTP traffic where the source IP comes from the Kiev, Ukraine. Recommend also blocking
+           outgoing traffic to unrecognized or validated client ip addresses orginiating from out of the country.
 
-Mapping iplocation before and after the atack revealed that before the attack Paris, France was the 
-primary source of traffic as can be seen below.
+*Mapping iplocation before and after the atack revealed that before the attack Paris, France was the 
+primary source of traffic as can be seen below.*
 
 *Before The Attack1*
 ![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Logs%20iplocation%20before%20attack.png)
 
-Attack logs show a large spike in traffic from the Ukraine who had little to no presence before the 
-attack which can be seen in the image below.
+*Attack logs show a large spike in traffic from the Ukraine who had little to no presence before the 
+attack which can be seen in the image below.*
 
 *After The Attack*
 ![TODO](https://github.com/Tamie13/Unit-19/blob/main/Unit%2019%20Screenshots/Apache%20Attack%20Logs%20iplocation%20pie%20chart.png)
+
 
 
 **Question 2**
